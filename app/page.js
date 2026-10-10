@@ -31,14 +31,14 @@ export default function Home() {
           <div className="actions">
             <a className="primaryButton" href="#pipeline">Pipeline ansehen <span aria-hidden="true">→</span></a>
             <a className="secondaryButton" href="/release-notes/">Release Notes</a>
-            <span className="buildTag">Release 05 · Next.js Static Export</span>
+            <span className="buildTag">Release 06 · Next.js Static Export</span>
           </div>
         </div>
 
         <div className="signalCard" aria-label="Deployment Status">
           <div className="cardTopline">
             <span>Production</span>
-            <span className="statusBadge">Healthy · R05</span>
+            <span className="statusBadge">Healthy · R06</span>
           </div>
           <div className="pulseVisual" aria-hidden="true">
             <span className="ring ringOne" />
