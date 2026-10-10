@@ -12,7 +12,10 @@ export default function Home() {
           <span className="brandMark" aria-hidden="true">P</span>
           <span>Pipeline Pulse</span>
         </a>
-        <a className="navLink" href="#pipeline">Status prüfen <span aria-hidden="true">↘</span></a>
+        <div className="navLinks">
+          <a className="navLink" href="#pipeline">Status prüfen <span aria-hidden="true">↘</span></a>
+          <a className="navLink navLinkHighlight" href="/release-notes/">Neue Testseite <span aria-hidden="true">↗</span></a>
+        </div>
       </nav>
 
       <section className="hero" id="top">
@@ -27,6 +30,7 @@ export default function Home() {
           </p>
           <div className="actions">
             <a className="primaryButton" href="#pipeline">Pipeline ansehen <span aria-hidden="true">→</span></a>
+            <a className="secondaryButton" href="/release-notes/">Release Notes</a>
             <span className="buildTag">Next.js · Static Export</span>
           </div>
         </div>
