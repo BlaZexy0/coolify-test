@@ -22,7 +22,7 @@ export default function Home() {
         <div className="orb orbOne" aria-hidden="true" />
         <div className="orb orbTwo" aria-hidden="true" />
         <div className="heroCopy">
-          <p className="eyebrow"><span className="liveDot" /> Autodeploy-Test #4 aktiv</p>
+          <p className="eyebrow"><span className="liveDot" /> Autodeploy-Test #5 aktiv</p>
           <h1>Deine Pipeline.<br /><em>Ein klares Signal.</em></h1>
           <p className="intro">
             Wenn du diese Seite siehst, hat dein automatischer Weg vom Git-Commit
@@ -31,14 +31,14 @@ export default function Home() {
           <div className="actions">
             <a className="primaryButton" href="#pipeline">Pipeline ansehen <span aria-hidden="true">→</span></a>
             <a className="secondaryButton" href="/release-notes/">Release Notes</a>
-            <span className="buildTag">Release 04 · Next.js Static Export</span>
+            <span className="buildTag">Release 05 · Next.js Static Export</span>
           </div>
         </div>
 
         <div className="signalCard" aria-label="Deployment Status">
           <div className="cardTopline">
             <span>Production</span>
-            <span className="statusBadge">Healthy</span>
+            <span className="statusBadge">Healthy · R05</span>
           </div>
           <div className="pulseVisual" aria-hidden="true">
             <span className="ring ringOne" />
