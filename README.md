@@ -1,6 +1,7 @@
-# Coolify CI/CD Test
+# Pipeline Blueprint
 
-Eine kleine statisch exportierte Next.js-Website zum Testen einer CI/CD-Pipeline.
+Eine statisch exportierte Next.js-Erklärseite über den Weg vom lokalen Test über
+GitHub und Coolify bis zur geplanten Hetzner-Infrastruktur.
 
 ## Lokal starten
 

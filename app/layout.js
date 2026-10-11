@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Pipeline Pulse | CI/CD Test",
-  description: "Eine statische Next.js-Testseite für erfolgreiche Deployments.",
+  title: "Pipeline Blueprint | CI/CD erklärt",
+  description: "Vom lokalen Next.js-Build über Coolify bis zur geplanten Hetzner-Infrastruktur.",
 };
 
 export default function RootLayout({ children }) {
